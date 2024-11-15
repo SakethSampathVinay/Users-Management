@@ -12,13 +12,13 @@ export const addNewUserControls = [
     type: "input",
   },
   {
-    name: "Email",
+    name: "email",
     label: "Email",
     placeholder: "Enter your Email",
     type: "email",
   },
   {
-    name: "Address",
+    name: "address",
     label: "Address",
     placeholder: "Enter your Address",
     type: "input",
