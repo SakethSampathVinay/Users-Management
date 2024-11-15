@@ -1,7 +1,9 @@
 "use server";
+import connecToDB from "@/database";
+import User from "@/models/user";
 
-const { default: connecToDB } = require("@/database");
-const { NextResponse } = require("next/server");
+// Adjust the path according to your project structure
+
 
 // add new user
 // fetch user action 
